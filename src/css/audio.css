@@ -1,0 +1,28 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1); /* fondo negro con opacidad */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 9999999;
+  transition: all 0.5s ease-in-out;
+}
+
+.modal img {
+  width: 100%;
+  max-width: 400px; /* ajusta el tamaño máximo según tus necesidades */
+  transition: all 0.5s ease-in-out;
+}
+
+.modal:hover img {
+  transform: scale(0.9);
+}
+
+.modal audio {
+  margin-top: 20px;
+}
